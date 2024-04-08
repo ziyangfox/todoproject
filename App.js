@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { View, StatusBar, FlatList } from "react-native";
-import styled from "styled-components";
+import styled from 'styled-components/native';
 import AddInput from "./Components/AddInput";
 import TodoList from "./Components/TodoList";
 import * as SplashScreen from 'expo-splash-screen';

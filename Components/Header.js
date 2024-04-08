@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import styled from 'styled-components/native';
 
 let today = new Date().toISOString().slice(0, 10);
 

@@ -4,8 +4,7 @@ import { Entypo } from "@expo/vector-icons";
 import { MaterialIcons } from "@expo/vector-icons";
 import { ImageBackground } from 'react-native';
 import { formatDistanceToNow } from 'date-fns'; 
-
-import styled from "styled-components";
+import styled from 'styled-components/native';
 
 export default function TodoList({ item, deleteItem }) {
 const locationInfo = item.location
